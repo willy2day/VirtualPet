@@ -1,10 +1,4 @@
-
-void setup(){
-  //some of your code here
   size(400,400);
-}
-void draw(){
-  
       fill(204, 255, 204);
       strokeWeight(0);
       //angleMode(DEGREES);
@@ -25,5 +19,5 @@ void draw(){
       fill(204, 255, 204);//legs
       arc(165, 200, 30, 40, -20, 200, OPEN);//left arm
       arc(235, 200, 30, 40, -20, 200, OPEN); //right arm
-}
+
 
